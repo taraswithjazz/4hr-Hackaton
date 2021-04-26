@@ -1,11 +1,9 @@
 <div class="topic-item" *ngFor="let item of quiz$;let i = index">
+    
 <p>{{i+1}}. {{item.question}}</p>
-<!-- <mat-radio-group aria-label="Select an option" style="margin-left: 10px;">
-    <mat-radio-button value="true">True</mat-radio-button>
-    <mat-radio-button value="false">False</mat-radio-button>
-  </mat-radio-group> -->
   <form [formGroup]="questionForm">
     <input type="radio" [value]=true formControlName="answer" >True
+
     <input type="radio" [value]=false formControlName="answer">False
   </form>
 </div>
