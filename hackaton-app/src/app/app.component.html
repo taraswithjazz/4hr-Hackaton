@@ -1,0 +1,33 @@
+<mat-toolbar color="primary">
+    QUIZ APP
+  
+    <a
+      mat-raised-button
+      class="navigation-item"
+      routerLink="generate"
+      routerLinkActive="router-link-active"
+    >
+      Generate quiz
+    </a>
+    <a
+      mat-raised-button
+      class="navigation-item"
+      routerLink="pass"
+      routerLinkActive="router-link-active"
+    >
+      Pass quiz
+    </a>
+    <a
+      mat-raised-button
+      class="navigation-item"
+      routerLink="favorites"
+      routerLinkActive="router-link-active"
+    >
+      Favorites
+    </a>
+  </mat-toolbar>
+  
+  <div class="main-container">
+    <router-outlet></router-outlet>
+  </div>
+  

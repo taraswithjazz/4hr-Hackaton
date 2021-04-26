@@ -1,0 +1,10 @@
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+    .gen-button {
+        background-color: #3f51b5;
+    }
+    .warning {
+        color: rosybrown;
+    }
+}

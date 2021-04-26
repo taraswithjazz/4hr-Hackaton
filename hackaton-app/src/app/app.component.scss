@@ -1,0 +1,12 @@
+.navigation-item {
+    margin-left: 20px;
+  
+    &.router-link-active {
+      background: lightblue;
+      color: #3f51b5;
+    }
+  }
+  
+  .main-container {
+    padding: 20px;
+  }
